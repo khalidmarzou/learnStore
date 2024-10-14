@@ -27,7 +27,7 @@ export default function Screen({ product, loading, onCountChange, onClickBuy }) 
   return (
     <main className="h-3/5 bg-white flex items-center justify-center gap-24">
       <article className="h-4/5 bg-[#F6F6F6] w-1/4 flex justify-center items-center">
-        <img src={`/assets/nikeSneakers/${product.image}`} alt="" />
+        <img src={`/learnStore/assets/nikeSneakers/${product.image}`} alt="" />
       </article>
       <article className="w-1/3 h-4/5 flex flex-col items-start justify-between">
         <h1 className="font-extrabold text-4xl">{product.title}</h1>

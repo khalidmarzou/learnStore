@@ -7,7 +7,7 @@ export default function Product({ image, show, id }) {
       onClick={show}
       className="bg-[#F7F8FA] h-5/6 w-64 shadow-md hover:bg-[#e6e7e9] rounded"
     >
-      <img src={`/assets/nikeSneakers/${image}`} />
+      <img src={`/learnStore/assets/nikeSneakers/${image}`} />
     </Link>
   );
 }

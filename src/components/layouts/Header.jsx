@@ -9,7 +9,7 @@ export default function Header({ numProductInCart }) {
   return (
     <header className="bg-[#4A5567] w-full h-20 flex items-center justify-between px-32">
       <Link to="/products">
-        <img src="/assets/logoWhite.svg" alt="Logo" />
+        <img src="/learnStore/assets/logoWhite.svg" alt="Logo" />
       </Link>
 
       {location.pathname === "/products/cart" ? (
