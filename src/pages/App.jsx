@@ -140,7 +140,7 @@ export default function App() {
 
   return (
     <>
-      {/* <Alert /> */}
+      <Alert />
       <Header numProductInCart={cart.length} />
       {location.pathname === "/products/cart" ? (
         <Cart cart={cart} setCart={setCart} sneakers={sneakers} setSneakers={setSneakers} />
